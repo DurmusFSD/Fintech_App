@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+
+    <link rel="stylesheet" href="./CSS/main.css" />
+  </head>
+  <body>
+    <!--Sidebar-->
+    <input type="checkbox" id="toggle-sidebar" />
+    <aside>
+      <div class="logo">
+        <i data-lucide="loader-pinwheel" class="primary logo-icon"></i>
+        <h1>now<span class="primary">Pay</span></h1>
+      </div>
+      <div class="tabs">
+        <div class="tab active">
+          <a href="#" class="item">
+            <i data-lucide="layout-dashboard"></i>
+            <h3>Dashboard</h3></a
+          >
+        </div>
+        <div class="tab">
+          <a href="#" class="item">
+            <i data-lucide="message-circle"></i>
+            <h3>Messages</h3>
+            <div class="count">+9</div></a
+          >
+        </div>
+        <div class="tab">
+          <a href="#" class="item">
+            <i data-lucide="scroll-text"></i>
+            <h3>Invoices</h3></a
+          >
+        </div>
+        <div class="tab">
+          <a href="#" class="item">
+            <i data-lucide="wallet"></i>
+            <h3>Wallet</h3></a
+          >
+        </div>
+        <div class="tab">
+          <a href="#" class="item">
+            <i data-lucide="chart-column-big"></i>
+            <h3>Analytics</h3></a
+          >
+        </div>
+        <div class="tab">
+          <a href="#" class="item">
+            <i data-lucide="monitor-dot"></i>
+            <h3>My Activity</h3></a
+          >
+        </div>
+        <div class="tab">
+          <a href="#" class="item">
+            <i data-lucide="settings"></i>
+            <h3>Settings</h3>
+          </a>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="item-tabs">
+          <div class="item-tab" >
+            <i data-lucide="hand-helping"></i>
+            <h3>Get Help</h3>
+          </div>
+
+          <div class="item-tab" id="theme">
+            <i data-lucide="sun-moon"></i>
+            <h3>Theme</h3>
+          </div>
+        </div>
+        <div class="user">
+          <div class="profile">
+            <img src="./asset/profile.jpg" alt="" />
+          </div>
+          <div class="details">
+            <h4 class="name">Name Surname</h4>
+            <p class="muted">User</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!--Sidebar-->
+
+    <!--Main-->
+    <main>
+      <!--Navbar-->
+      <nav>
+        <div class="logo">
+          <i data-lucide="loader-pinwheel" class="primary logo-icon"></i>
+          <h1>now<span class="primary">Pay</span></h1>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search history" />
+          <div class="icon-wrapper">
+            <i data-lucide="search"></i>
+          </div>
+        </div>
+        <div class="user">
+          <div class="icon-wrapper">
+            <i data-lucide="bell-ring"></i>
+          </div>
+          <div class="profile">
+            <img src="./asset//profile.jpg" alt="" />
+          </div>
+          <label for="toggle-sidebar" class="rounded-icon-btn menu-btn">
+            <i data-lucide="menu"></i>
+          </label>
+        </div>
+      </nav>
+      <!--Navbar-->
+
+      <!--Container-->
+      <section class="container">
+        <!--First-->
+        <div class="column">
+          <h2 class="title">My Virtual Card</h2>
+          <div class="visa-card">
+            <div class="visa-car-inner">
+              <div class="front">
+                <img src="./asset/world.svg" class="map-img" alt="" />
+                <div class="row">
+                  <img src="./asset/chip.png" class="icon" alt="" />
+                  <img src="./asset/visa.png" class="icon" alt="" />
+                </div>
+                <div class="row card-no">
+                  <p>5667</p>
+                  <p>3225</p>
+                  <p>1938</p>
+                  <p>8939</p>
+                </div>
+                <div class="row card-holder">
+                  <p>CARD HOLDER</p>
+                  <p>VALID TILL</p>
+                </div>
+                <div class="row name">
+                  <p>Name Surname</p>
+                  <p>12/22</p>
+                </div>
+              </div>
+              <div class="back">
+                <img src="./asset/world.svg" class="map-img" alt="" />
+                <div class="bar"></div>
+                <div class="row card-cvv">
+                  <div><img src="./asset/partern.jpg" alt="" /></div>
+                  <p>567</p>
+                </div>
+                <div class="row card-text">
+                  <p>
+                    Nowpay's virtual card enables secure, instant payment,
+                    giving you easy access to funds and seamless financial
+                    management.
+                  </p>
+                </div>
+                <div class="row signature">
+                  <p>CUSTOMER SIGNATURE</p>
+                  <img src="./asset/visa.png" class="icon" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="send-money">
+            <h2 class="title">Send Money</h2>
+            <div class="row balance">
+              <div>
+                <h1>$56,000</h1>
+                <p><span class="success">+2.03%</span> ($1,137)</p>
+              </div>
+              <button class="add-fund-btn">
+                <img src="./asset/mastercard.png" alt="" class="icon" />
+                Add fund
+              </button>
+            </div>
+
+            <div class="amount">
+              <div class="row user">
+                <div class="profile">
+                  <img src="./asset/profile.jpg" alt="" />
+                </div>
+                <p class="muted">Enter the amount</p>
+              </div>
+              <div class="row price-input">
+                <p class="currency">$</p>
+                <input type="text" placeholder="0.00" />
+                <div class="row">
+                  <div class="profile">
+                    <img src="./asset/ng-flag.svg" alt="" />
+                  </div>
+                  <div class="profile">
+                    <img src="./asset/us-flag.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row receiver">
+              <div class="profile">
+                <img src="./asset/receiver.jpg" alt="" />
+              </div>
+              <h3 class="name">Jennifer Eze</h3>
+              <div class="rounded-icon-btn">
+                <i data-lucide="plus"></i>
+              </div>
+            </div>
+
+            <button class="btn btn-primary send-money-btn">Send Money</button>
+          </div>
+
+          <div class="quick-transfer">
+            <h2 class="title">Quick Transfer</h2>
+            <div class="row available-balance">
+              <p class="muted">Balance</p>
+              <h1>$56,000</h1>
+            </div>
+            <div class="transfer-input">
+              <p class="muted">Enter amount</p>
+              <div class="row">
+                <p class="currency">$</p>
+                <input type="text" placeholder="0.00" />
+                <div class="row">
+                  <div class="profile">
+                    <img src="./asset/ng-flag.svg" alt="" />
+                  </div>
+                  <div class="profile">
+                    <img src="./asset/us-flag.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row action-buttons">
+              <div class="item">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="send"></i>
+                </div>
+                <p class="muted">Send</p>
+              </div>
+              <div class="item">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="hand-coins"></i>
+                </div>
+                <p class="muted">Receive</p>
+              </div>
+              <div class="item">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="scroll-text"></i>
+                </div>
+                <p class="muted">Invoice</p>
+              </div>
+              <div class="item">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="group"></i>
+                </div>
+                <p class="muted">More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Second-->
+        <div class="column">
+          <div class="cash-flow">
+            <div class="cash-flow-header">
+              <h2 class="title">Cash Flow</h2>
+              <div class="row round-btns">
+                <div class="rounded-icon-btn">
+                  <i data-lucide="trending-up" class="icon"></i>
+                </div>
+                <div class="rounded-icon-btn">
+                  <i data-lucide="chart-column-stacked" class="icon"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="row trend-report">
+              <div class="rounded-icon-btn btn-primary">
+                <i data-lucide="trending-up" class="icon"></i>
+              </div>
+              <h3>Savings</h3>
+              <i data-lucide="trending-up" class="icon primary"></i>
+              <p class="success">+2.03%</p>
+            </div>
+
+            <canvas id="myChart" style="width: 100%; height: 100%"></canvas>
+          </div>
+
+          <div class="statistics-grid">
+            <div class="statistics">
+              <h2 class="title">Statistics</h2>
+              <div class="boxes">
+                <div class="box">
+                  <div class="rounded-icon-btn">
+                    <i data-lucide="git-branch-plus" class="icon danger"></i>
+                  </div>
+                  <div>
+                    <h4>357k</h4>
+                    <p class="muted">User Trust</p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="rounded-icon-btn">
+                    <i data-lucide="flag" class="icon primary"></i>
+                  </div>
+                  <div>
+                    <h4>20 Countries</h4>
+                    <p class="muted">Global Reach</p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="rounded-icon-btn">
+                    <i
+                      data-lucide="circle-dollar-sign"
+                      class="icon success"
+                    ></i>
+                  </div>
+                  <div>
+                    <h4>$1.3m</h4>
+                    <p class="muted">Transactions</p>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="rounded-icon-btn">
+                    <i data-lucide="star" class="icon warning"></i>
+                  </div>
+                  <div>
+                    <h4>3k</h4>
+                    <p class="muted">Reviews</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-history">
+              <div class="row contact-history-header">
+                <h2 class="title">Contact History</h2>
+                <div class="row">
+                  <div class="rounded-icon-btn">
+                    <i data-lucide="pencil" class="icon"></i>
+                  </div>
+                  <div class="rounded-icon-btn">
+                    <i data-lucide="search" class="icon"></i>
+                  </div>
+                </div>
+              </div>
+              <p class="muted">25 new contact added</p>
+
+              <div class="profile-container">
+                <div class="row user">
+                  <div class="profile">
+                    <img src="./asset/user1.jpg" alt="" />
+                  </div>
+                  <div>
+                    <h3>Jessica</h3>
+                    <p class="muted">$25.9</p>
+                  </div>
+                </div>
+
+                <div class="row user">
+                  <div class="profile">
+                    <img src="./asset/user2.jpg" alt="" />
+                  </div>
+                  <div>
+                    <h3>Samuel</h3>
+                    <p class="muted">$40</p>
+                  </div>
+                </div>
+
+                <div class="row user">
+                  <div class="profile">
+                    <img src="./asset/user3.jpg" alt="" />
+                  </div>
+                  <div>
+                    <h3>Linda</h3>
+                    <p class="muted">$70.5</p>
+                  </div>
+                </div>
+
+                <div class="row user">
+                  <div class="profile">
+                    <img src="./asset/user4.jpg" alt="" />
+                  </div>
+                  <div>
+                    <h3>James</h3>
+                    <p class="muted">$120</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="transactions">
+            <h2 class="title">Recent Transactions</h2>
+            <table>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!--Container-->
+    </main>
+    <!--Main-->
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <!-- chart.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
